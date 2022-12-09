@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>WeNatal</title>
+  <link rel="stylesheet" href="./css/initial.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/common.js"></script>
+  <script src="http://fatlinesofcode.github.io/jquery.smoothwheel/src/jquery.smoothwheel.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("body").smoothWheel()
+    });
+  </script>
+</head>
+
+<body>
+  <div class="option">
+    <span>
+      <img src="./img/body/11.png" alt="man">
+    </span>
+  </div>
+  <div class="talk">
+    <span>
+      <img src="./img/body/SpeechBubble.png" alt="speech">
+    </span>
+  </div>
+  <!--메인배너-->
+  <main>
+    <div class="burger-toggle off">
+      <div class="burger-menu">
+        <ul>
+          <li>
+            <a href="#">Our Story</a>
+            <a href="#">Shop Now</a>
+            <a href="#">Ingredients</a>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Research</a>
+            <a href="#">FAQ's</a>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+          </li>
+        </ul>
+        <div class="burger-icons">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="buying buyoff">
+      <div class="cart">
+        <p>Your&nbsp;Cart</p>
+        <div class="x-area">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="cart-sub">
+        <ul>
+          <li>
+            <p>Your cart is currently empty</p>
+          </li>
+          <li>
+            <a href="#">SHOP WENATAL TOGETHER</a>
+            <a href="#">SHOP WENATAL FOR HIM</a>
+            <a href="#">SHOP WENATAL FOR HER</a>
+            <a href="#">SHOP THE WENATAL JOURNAL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header id="header">
+      <!-- 일정구간 미만일 경우 생기는 gnb체크버튼 -->
+      <div id="gnbbtn">
+        <div class="gnbbtn right">
+          <span></span>
+        </div>
+        <div class="gnbbtn left">
+          <span></span>
+        </div>
+      </div>
+
+      <h1 id="top-logo">
+        <ul>
+          <li><a href="#">WeNatal</a></li>
+          <li><a href="#">BETTER TOGETHER</a></li>
+        </ul>
+      </h1>
+      <nav id="gnb">
+        <ul class="gnbLeft">
+          <li><a href="#">Ingredients</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul class="gnbRight">
+          <li>
+            <div class="shop-all">SHOP ALL</div>
+          </li>
+          <li><button>cart</button></li>
+          <li><a href="#">Account</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="page-content">
+      <div class="page">
+        <section id="products-hero">
+          <div class="container">
+            <img src="./img/page//hero/hero.svg" alt="hero">
+            <h1>Helping you create<br>healthy little humans</h1>
+            <p>The only comprehensive prenatal<br>bringing you the best support<br>for body + mind.</p>
+          </div>
+        </section>
+        <section id="together">
+          <div class="together-bg-container">
+            <div class="together-bg">
+              <figure>
+                <span></span>
+              </figure>
+            </div>
+          </div>
+          <div class="together-text">
+            <ul>
+              <li>
+                <h2>WeNatal<br>Together</h2>
+              </li>
+              <li>
+                <p>Start now. Start together.<br>Conveniently bundled<br>for all couples.</p>
+              </li>
+              <li><a href="#">SHOP NOW</a></li>
+            </ul>
+          </div>
+        </section>
+        <div id="products-collection">
+          <section id="products-him">
+            <div class="container-wrap">
+              <div class="container">
+                <h2>WeNatal<br>For Him</h2>
+                <div class="him-bg">
+                  <span></span>
+                </div>
+                <div class="container-him">
+                  <p>Designed to support sperm health, while protecting against cellular damage and increasing antioxidant status.</p>
+                  <a href="#">SHOP NOW</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="products-her">
+            <div class="container">
+              <h2>WeNatal<br>For Her</h2>
+              <div class="her-bg">
+                <span></span>
+              </div>
+              <div class="container-her">
+                <p>Formulated to promote overall reproductive health with a focus on egg quality, building nutrient reserves, and providing the building blocks for a healthy baby.</p>
+                <a href="#">SHOP NOW</a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section id="products-more">
+          <div class="container">
+            <div id="products-more-intro">
+              <img src="./img/page//hero/hero.svg" alt="hero">
+              <h3>That's not all. We have more.</h3>
+            </div>
+            <div id="carousel">
+              <ul>
+                <li>
+                  <figure class="carousel-img">
+                    <img src="./img/page/more/more01.jpg" alt="more01">
+                  </figure>
+                  <div class="carousel-deep">
+                    <div class="carousel-text">
+                      <h3>The WeNatal Journal</h3>
+                      <p>Your guide to manifestiong the family of your dreams.</p>
+                    </div>
+                    <a href="" class="shop-now">SHOP NOW</a>
+                  </div>
+                </li>
+                <li>
+                  <figure class="carousel-img">
+                    <img src="./img/page/more/more02.jpg" alt="more02">
+                  </figure>
+                  <div class="carousel-deep">
+                    <div class="carousel-text">
+                      <h3>WeNatal Together</h3>
+                      <p>Start Now. Start Together.</p>
+                    </div>
+                    <a href="#" class="shop-now">SHOP NOW</a>
+                  </div>
+                </li>
+              </ul>
+              <div id="products-heading">
+                <h3>
+                  <p><span>&nbsp;Because we are</span></p>
+                  <p><span>#BetterTogether</span></p>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="products-icons">
+          <div class="icons-text">
+            <h2>Transforming<br>prenatal care<br>from me to we.</h2>
+          </div>
+          <ul>
+            <li>
+              <img src="./img/page/icons/icons01.jpg" alt="icons01">
+              <p>SUSTAINABLE<br>PACKAGING</p>
+            </li>
+            <li>
+              <img src="./img/page/icons/icons02.jpg" alt="icons02">
+              <p>FREE<br>SHIPPING</p>
+            </li>
+            <li>
+              <img src="./img/page/icons/icons03.jpg" alt="icons03">
+              <p>FLEXIBLE<br>SUBSCRIPTION</p>
+            </li>
+          </ul>
+        </section>
+        <section id="test-section">
+          <div class="test">
+            <div class="test-image one">
+              <ul>
+                <li><img src="./img/page/test/test03.jpeg" alt="textOne"></li>
+                <li><img src="./img/page/test/test01.jpg" alt="textTwo"></li>
+                <li><img src="./img/page/test/test02.jpg" alt="textThree"></li>
+              </ul>
+            </div>
+            <div class="test-text">
+              <!-- before 이용해서 따옴표 만들어주기 -->
+              <ul>
+                <li class="textOne active-text">
+                  <h3>I love taking WerNatal with my husband and knowing that we are both getting optimal nutrient levels.</h3>
+                  <p>Brigid T.</p>
+                </li>
+                <li class="textTwo">
+                  <h3>WeNatal came at the perfect time for me and my husband. We knew we wanted to have a baby soon and were looking for a trusted prenatal brand that not only would support my body but also my husband’s.</h3>
+                  <p>Kaya P.</p>
+                </li>
+                <li class="textThree">
+                  <h3>WeNatal is so thoughtfully packaged and produced. The founders are the most hard-working, health-conscious people I know and I know their heart and souls went into this wonderful product.</h3>
+                  <p>Gizel T.</p>
+                </li>
+              </ul>
+              <div id="btn-next" class="btn">
+                <span></span>
+              </div>
+            </div>
+            <div class="test-image half">
+              <ul>
+                <li><img src="./img/page/test/test01.jpg" alt=""></li>
+                <li><img src="./img/page/test/test02.jpg" alt=""></li>
+                <li><img src="./img/page/test/test03.jpeg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-bottom">
+            <p>Tesimonials are from couples who were given the<br>product free to test for 3 months. Photos used are not of<br>the quoted consumers, in order to protect anonymity.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="container">
+          <div class="footer-left">
+            <img src="" alt="">
+            <h3>Join our newsletter.</h3>
+            <ul>
+              <li>
+                <input class="email" type="text" name="text" value="Email">
+                <button>Submit<span></span></button>
+              </li>
+              <!-- 위의 submit에 작성하면 나오는 부분 -->
+              <!-- <li>
+                <p>"Thank you! We will be in touch with content and information to support your journey to become parents."</p>
+              </li> -->
+            </ul>
+          </div>
+          <div id="footer-nav">
+            <div class="footer-nav">
+              <ul>
+                <li>
+                  <a href="#">Shop</a>
+                  <a href="#">Ingredients</a>
+                  <a href="#">Our Story</a>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Research</a>
+                  <a href="#">Practitioner Program</a>
+                  <a href="#">FAQs</a>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-connect">
+              <h3>Connect:</h3>
+              <a href="http://facebook.com"><span></span></a>
+              <a href="http://twitter.com"><span></span></a>
+              <a href="http://instagram.com"><span></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <ul>
+            <li>
+              <a href="#">Terms and Conditions</a>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <p>All content &copy; 2021 WeNatal Inc. WENATAL BETTER TOGETHER is a trademark of WeNatal Inc.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
